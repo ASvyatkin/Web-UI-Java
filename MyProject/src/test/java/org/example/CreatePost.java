@@ -68,7 +68,7 @@ public class CreatePost {
 
         Thread.sleep(1000);
 
-        WebElement element5 = webDriver.findElement(By.xpath("//*[@class= 'reset-0-2-222 root-0-2-224 rootMaxWidth-0-2-232 textBold-0-2-235 textBlue-0-2-236']"));
+        WebElement element5 = By.xpath("//*[@class= 'reset-0-2-222 root-0-2-224 rootMaxWidth-0-2-232 textBold-0-2-235 textBlue-0-2-236']").findElement(webDriver);
         element5.click();
 
         Thread.sleep(1000);
